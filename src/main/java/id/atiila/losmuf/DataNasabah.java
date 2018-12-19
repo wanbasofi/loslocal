@@ -74,68 +74,59 @@ public class DataNasabah implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Kategori Kendaraan")
 	private java.util.List<java.lang.String> kategoriKend;
 
-	@org.kie.api.definition.type.Label("Usia Debitur")
+	@org.kie.api.definition.type.Label(value = "Usia Debitur")
 	private java.lang.Integer usiaDebitur;
 
-	@org.kie.api.definition.type.Label("Pekerjaan Debitur")
+	@org.kie.api.definition.type.Label(value = "Pekerjaan Debitur")
 	private java.lang.String kerjaDebitur;
 
-	@org.kie.api.definition.type.Label("Lama Bekerja Debitur")
+	@org.kie.api.definition.type.Label(value = "Lama Bekerja Debitur")
 	private java.lang.Integer lamaKerja;
 
-	@org.kie.api.definition.type.Label("Jenis Nasabah")
+	@org.kie.api.definition.type.Label(value = "Jenis Nasabah")
 	private java.util.List<java.lang.String> jnsNasabah;
 
-	@org.kie.api.definition.type.Label("Jumlah Tanggungan")
+	@org.kie.api.definition.type.Label(value = "Jumlah Tanggungan")
 	private java.lang.Integer jmlhTanggungan;
 
-	@org.kie.api.definition.type.Label("Status Pernikahan")
+	@org.kie.api.definition.type.Label(value = "Status Pernikahan")
 	private java.util.List<java.lang.String> stsPernikahan;
 
-	@org.kie.api.definition.type.Label("Lama Tinggal Debitur")
+	@org.kie.api.definition.type.Label(value = "Lama Tinggal Debitur")
 	private java.lang.Integer lamaTinggal;
 
-	@org.kie.api.definition.type.Label("Status Kepemilikan Rumah")
+	@org.kie.api.definition.type.Label(value = "Status Kepemilikan Rumah")
 	private java.util.List<java.lang.String> stsPemilikanRumah;
 
-	@org.kie.api.definition.type.Label("Daya Listrik Pada Rumah Tinggal")
+	@org.kie.api.definition.type.Label(value = "Daya Listrik Pada Rumah Tinggal")
 	private java.lang.Integer dayaListrik;
 
-	@org.kie.api.definition.type.Label("Tipe Jalan Rumah Tinggal")
+	@org.kie.api.definition.type.Label(value = "Tipe Jalan Rumah Tinggal")
 	private java.lang.String tipeJlnRumah;
 
-	@org.kie.api.definition.type.Label("Nilai Debt Service Ratio")
+	@org.kie.api.definition.type.Label(value = "Nilai Debt Service Ratio")
 	private java.lang.Integer nilDebtServiceRatio;
 
-	@org.kie.api.definition.type.Label("Nilai Debt Income Ratio")
+	@org.kie.api.definition.type.Label(value = "nilai Debt Income Ratio")
 	private java.lang.Integer nilDebtIncomeRatio;
 
-	@org.kie.api.definition.type.Label("Pokok Hutang")
+	@org.kie.api.definition.type.Label(value = "Pokok Hutang")
 	private java.lang.Integer pokHutang;
 
-	@org.kie.api.definition.type.Label("Tenor Kredit")
+	@org.kie.api.definition.type.Label(value = "Tenor Kredit")
 	private java.lang.Integer tenorKredit;
 
-	@org.kie.api.definition.type.Label("Amount Down Payment")
+	@org.kie.api.definition.type.Label(value = "Amount Down Payment")
 	private java.lang.Integer amountDP;
 
-	@org.kie.api.definition.type.Label("Installment Type")
+	@org.kie.api.definition.type.Label(value = "Installment Type")
 	private java.util.List<java.lang.String> installmentType;
 
-	@org.kie.api.definition.type.Label("Credit Scheme")
+	@org.kie.api.definition.type.Label(value = "Credit Scheme")
 	private java.lang.String creditScheme;
 
-	@org.kie.api.definition.type.Label("Total Unit Kendaraan")
+	@org.kie.api.definition.type.Label(value = "Total Unit Kendaraan")
 	private java.lang.Integer totalUnitKend;
-
-	@org.kie.api.definition.type.Label(value = "Skor Mobil Pernikahan Pemilikan Rumah")
-	private java.lang.Integer skorMobilPernikahanPemilikanRumah;
-
-	@org.kie.api.definition.type.Label(value = "Skor Mobil Lama Kerja")
-	private java.lang.Integer skorMobilLamaKerja;
-
-	@org.kie.api.definition.type.Label(value = "Skor Mobil Kerja Debitur Usia Kendaraan")
-	private java.lang.Integer skorMobilKerjaDebiturUsiaKendaraan;
 
 	public DataNasabah() {
 	}
@@ -465,32 +456,6 @@ public class DataNasabah implements java.io.Serializable {
 		this.totalUnitKend = totalUnitKend;
 	}
 
-	public java.lang.Integer getSkorMobilPernikahanPemilikanRumah() {
-		return this.skorMobilPernikahanPemilikanRumah;
-	}
-
-	public void setSkorMobilPernikahanPemilikanRumah(
-			java.lang.Integer skorMobilPernikahanPemilikanRumah) {
-		this.skorMobilPernikahanPemilikanRumah = skorMobilPernikahanPemilikanRumah;
-	}
-
-	public java.lang.Integer getSkorMobilLamaKerja() {
-		return this.skorMobilLamaKerja;
-	}
-
-	public void setSkorMobilLamaKerja(java.lang.Integer skorMobilLamaKerja) {
-		this.skorMobilLamaKerja = skorMobilLamaKerja;
-	}
-
-	public java.lang.Integer getSkorMobilKerjaDebiturUsiaKendaraan() {
-		return this.skorMobilKerjaDebiturUsiaKendaraan;
-	}
-
-	public void setSkorMobilKerjaDebiturUsiaKendaraan(
-			java.lang.Integer skorMobilKerjaDebiturUsiaKendaraan) {
-		this.skorMobilKerjaDebiturUsiaKendaraan = skorMobilKerjaDebiturUsiaKendaraan;
-	}
-
 	public DataNasabah(java.lang.String cbgAsal, java.lang.Integer aprLevel,
 			java.lang.String aprFunction, java.lang.String aprPlafond,
 			java.lang.Integer ovdSebelum, java.lang.Integer usiaKend,
@@ -522,10 +487,7 @@ public class DataNasabah implements java.io.Serializable {
 			java.lang.Integer nilDebtIncomeRatio, java.lang.Integer pokHutang,
 			java.lang.Integer tenorKredit, java.lang.Integer amountDP,
 			java.util.List<java.lang.String> installmentType,
-			java.lang.String creditScheme, java.lang.Integer totalUnitKend,
-			java.lang.Integer skorMobilPernikahanPemilikanRumah,
-			java.lang.Integer skorMobilLamaKerja,
-			java.lang.Integer skorMobilKerjaDebiturUsiaKendaraan) {
+			java.lang.String creditScheme, java.lang.Integer totalUnitKend) {
 		this.cbgAsal = cbgAsal;
 		this.aprLevel = aprLevel;
 		this.aprFunction = aprFunction;
@@ -566,9 +528,6 @@ public class DataNasabah implements java.io.Serializable {
 		this.installmentType = installmentType;
 		this.creditScheme = creditScheme;
 		this.totalUnitKend = totalUnitKend;
-		this.skorMobilPernikahanPemilikanRumah = skorMobilPernikahanPemilikanRumah;
-		this.skorMobilLamaKerja = skorMobilLamaKerja;
-		this.skorMobilKerjaDebiturUsiaKendaraan = skorMobilKerjaDebiturUsiaKendaraan;
 	}
 
 }
